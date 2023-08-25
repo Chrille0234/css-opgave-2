@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Qwitcher+Grypen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+    animation: spin 5s infinite linear;
+}
+body{
+    position: relative;
+    background-color: pink;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Merriweather', serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Comic Neue', cursive;
+}
+img{
+    aspect-ratio: 3/4;
+    width: 200px;
+}
+a{
+    font-size: 5em;
+}
+tr > td:last-of-type{
+    background-color: green;
+}
+/* dårlig metode fordi man bruger unødvendig mange classes, det er ikke responsive, og det er besværligt at placere tags rundt på den måde*/
+.ptag1{
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+}
+.ptag2{
+    position: absolute;
+    bottom: 15px;
+    right: 200px;
+}
+.ptag3{
+    position: absolute;
+    bottom: 15px;
+    right: 400px;
+}
+.ptag4{
+    position: absolute;
+    bottom: 15px;
+    right: 600px;
+}
+.ptag5{
+    position: absolute;
+    bottom: 15px;
+    right: 800px;
+}
+
+
+@keyframes spin {
+    0% { 
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    100% { 
+        transform: translate(50px, 20px) rotate(360deg);
+    }
+}

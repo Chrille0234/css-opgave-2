@@ -24,7 +24,11 @@ a{
 tr > td:last-of-type{
     background-color: green;
 }
-/* dårlig metode fordi man bruger unødvendig mange classes, det er ikke responsive, og det er besværligt at placere tags rundt på den måde*/
+/* sæt elementer ved siden af hinanden */
+/* dårlig metode fordi man skal finde nogle mærkelige tal så tingene ikke står for tæt*/
+/* man  bruger unødvendig mange linjer og classes */
+/* ikke responsivt */
+/* besværlig hvis man skal lave det responsivt med 1000 media queries */
 .ptag1{
     position: absolute;
     bottom: 15px;
